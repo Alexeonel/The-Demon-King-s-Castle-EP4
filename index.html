@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Demon King's Castle</title>
+    <script src="js/juego.js"></script>
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            background-color: purple;
+        }
+        .contenedor{
+          margin: 50px ;  
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+            
+        }
+        main{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: black;
+        }
+            
+        h1{
+            color: rgb(119, 25, 15);
+            font-size: 60pt;
+            font-style: oblique;
+            margin: 10px;
+            font-family: Pixelify Sans;
+        }
+        h2{
+            color: rgb(202, 52, 2);
+            text-align: center;
+        }
+        img{
+            width: 600px;
+            margin: 10px;
+        }
+        
+        button{
+            padding: 10px;
+            font-size: 20pt;
+            font-family: Pixelify Sans;
+            color:rgba(0, 0, 0, 0.964);
+            background-color: gray;
+            border-radius: 40px;
+        }
+        button:hover{
+            background-color: black;
+            color: brown;
+            border-color:white ;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <main>
+            <h1>The Demon King's Castle<span>🏰</span></h1>
+            <h2>Creador: <br> Alexanders Leonel Quispe Tello</h2>
+            <img src="img/castle.jpg" alt="portada">
+            <button onclick="disableButton()">COMENZAR</button>
+        </main>
+        <audio src="audio/song.mp3" autoplay controls ></audio>
+    </div>
+    
+</body>
+</html>
